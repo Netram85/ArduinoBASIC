@@ -44,7 +44,7 @@ unsigned char mem[MEMORY_SIZE];
 #define TOKEN_BUF_SIZE    64
 unsigned char tokenBuf[TOKEN_BUF_SIZE];
 
-const char welcomeStr[] PROGMEM = "M_BASIC 0.1 - based in Arduino BASIC from Robin Edwards";
+const char welcomeStr[] PROGMEM = "M_BASIC 0.1 - forked from robinhedwards/ArduinoBASIC";
 char autorun = 0;
 
 void setup() {
